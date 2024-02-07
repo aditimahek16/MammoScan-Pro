@@ -71,7 +71,7 @@ if image is not None:
     with image:
         st.image(image, caption="Your Ultrasound Scan", width=350)
         image_data = image.read()
-        results = predictor.classify_image("206bdac0-d143-4654-a908-b6bc6a3fbdd4", "Iteration1", image_data)
+        results = predictor.classify_image("26b113fb-9f57-4484-be50-33144495cd7e", "Iteration1", image_data)
     disp = True
     
     c = st.image("loader.gif")
