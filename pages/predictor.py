@@ -5,8 +5,8 @@ from msrest.authentication import ApiKeyCredentials
 import requests
 
 # Replace with your endpoint and prediction key
-ENDPOINT = "ebde9caa48dd4a73b40ffb62864872d1"
-PREDICTION_KEY = "https://mammoscanpro.cognitiveservices.azure.com/customvision/v3.0/Prediction/26b113fb-9f57-4484-be50-33144495cd7e/classify/iterations/Iteration1/image"
+ENDPOINT = "https://mammoscanpro.cognitiveservices.azure.com/customvision/v3.0/Prediction/26b113fb-9f57-4484-be50-33144495cd7e/classify/iterations/Iteration1/image"
+PREDICTION_KEY = "ebde9caa48dd4a73b40ffb62864872d1"
 
 # Create a prediction client
 credentials = ApiKeyCredentials(in_headers={"Prediction-key": PREDICTION_KEY})
@@ -69,9 +69,9 @@ if image is not None:
     disp = False
     
     with image:
-        st.image(image, caption="Your ultrasound Scan", width=350)
+        st.image(image, caption="Your Ultrasound Scan", width=350)
         image_data = image.read()
-        results = predictor.classify_image("414083bc-72e5-4997-8145-ef52688393f7", "Iteration1", image_data)
+        results = predictor.classify_image(" 206bdac0-d143-4654-a908-b6bc6a3fbdd4", "Iteration1", image_data)
     disp = True
     
     c = st.image("loader.gif")
