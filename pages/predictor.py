@@ -5,8 +5,8 @@ from msrest.authentication import ApiKeyCredentials
 import requests
 
 # Replace with your endpoint and prediction key
-ENDPOINT = "https://mammoscanpro.cognitiveservices.azure.com/"
-PREDICTION_KEY = "ebde9caa48dd4a73b40ffb62864872d1"
+ENDPOINT = st.secrets["ENDPOINT"]
+PREDICTION_KEY =st.secrets["PREDICTION_KEY"]
 
 # Create a prediction client
 credentials = ApiKeyCredentials(in_headers={"Prediction-key": PREDICTION_KEY})
