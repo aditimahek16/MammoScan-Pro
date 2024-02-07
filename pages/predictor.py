@@ -94,7 +94,7 @@ if image is not None:
                 """
                 Breast lumps, cysts, or tumors (benign breast disease) are common, though not always linked to cancer. While most are harmless, they can raise future cancer risk. To ensure peace of mind and proper diagnosis, consulting a healthcare professional is crucial. Regularly getting familiar with your breasts through self-exams helps detect changes early, allowing for informed treatment options.                """
             )
-            st.image("images/glioma.webp", caption="Benign", width=350)
+            st.image("images/Benign.png", caption="Benign", width=350)
             st.write("More Info")
 
             tab1, tab2, tab3 = st.tabs(
@@ -124,7 +124,7 @@ if image is not None:
                 """
                 Malignant breast cancer, a serious threat, arises when cells in the breast tissue divide uncontrollably, forming tumors that can spread. While not every lump is cancerous, early detection is crucial. Knowing the causes, symptoms, and treatment options empowers individuals to take charge of their health.                """
             )
-            st.image("images/Meningioma.jfif", caption="Malignant", width=350)
+            st.image("images/Malignant.png", caption="Malignant", width=350)
             st.write("Known Carried Diseases")
             btab1, btab2, btab3 = st.tabs(
                 ["Causes", "Symptoms", "Treatment"]
