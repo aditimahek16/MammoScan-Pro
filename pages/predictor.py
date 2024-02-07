@@ -115,7 +115,6 @@ if image is not None:
                 st.write(
                     "More Info can be found on the [Cleveland Clinic website](https://my.clevelandclinic.org/health/diseases/6270-benign-breast-disease)"
                 )
-            doctor()
 
         elif (
             name == "malignant"
@@ -144,7 +143,6 @@ if image is not None:
                 st.write(
                     "More Info can be found on the [American Cancer Society Website](https://www.cancer.org/cancer/breast-cancer.html)"
                 )
-            doctor()
 
     else:
         st.text("Feel safe! No breast cancer detected")
