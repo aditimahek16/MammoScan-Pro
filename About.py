@@ -75,7 +75,7 @@ st.image("images/progression.png", caption="Progession of Breast Cancer", width=
 
 st.header("Model")
 st.write(
-    "We used a dataset from Kaggle to train our model. The dataset is [linked here](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset?resource=download).
+    "We used a dataset from Kaggle to train our model. The dataset is [linked here](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset?resource=download)."
 )
 st.write("The relevent graphs and info are shown below.")
 st.subheader("Run One")
