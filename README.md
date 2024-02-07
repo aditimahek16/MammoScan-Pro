@@ -1,4 +1,4 @@
-# MammoScan Pro:pill: :computer:
+# MammoScan Pro :pill: :computer:
 
 ## Website Link: https://mammoscanpro.streamlit.app/
 
