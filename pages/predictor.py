@@ -89,7 +89,7 @@ if image is not None:
 
     if name!="unknown":
         st.text(f"Detected {name} with high confidence")
-        if name == "Benign":
+        if name == "benign":
             st.write(
                 """
                 Breast lumps, cysts, or tumors (benign breast disease) are common, though not always linked to cancer. While most are harmless, they can raise future cancer risk. To ensure peace of mind and proper diagnosis, consulting a healthcare professional is crucial. Regularly getting familiar with your breasts through self-exams helps detect changes early, allowing for informed treatment options.                """
@@ -118,7 +118,7 @@ if image is not None:
             doctor()
 
         elif (
-            name == "Malignant"
+            name == "malignant"
         ):
             st.write(
                 """
@@ -147,5 +147,5 @@ if image is not None:
             doctor()
 
     else:
-        st.text("No disease detected")
+        st.text("Feel safe! No breast cancer detected")
     
