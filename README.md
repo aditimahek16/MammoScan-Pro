@@ -53,7 +53,7 @@ Then, follow this step-by-step process to run this application:
 * Travel to the directory where you wish to store the project files using the cd command.
 * Clone the repository in your local system.
 ```bash
-git clone https://github.com/HVbajoria/MammoScan-Pro
+git clone https://github.com/aditimahek16/MammoScan-Pro
 ```
 * Go to your project directory where all the files are present.
 ```bash
